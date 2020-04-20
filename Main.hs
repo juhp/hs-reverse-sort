@@ -1,7 +1,7 @@
-import Criterion
-import Criterion.Main
+import Criterion (bench, nf)
+import Criterion.Main (defaultMain)
 import Data.List(sort, sortBy, sortOn)
-import Data.Ord
+import Data.Ord (comparing, Down(Down))
 import GHC.Exts(sortWith)
 
 list :: [Int]
