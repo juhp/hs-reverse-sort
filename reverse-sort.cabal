@@ -1,0 +1,23 @@
+cabal-version:       2.2
+
+name:                reverse-sort
+version:             0.1.0.0
+-- synopsis:
+-- description:
+-- bug-reports:
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              Jens Petersen
+maintainer:          petersen@redhat.com
+-- copyright:
+category:            Data
+extra-source-files:  CHANGELOG.md
+
+executable reverse-sort
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base,
+                       criterion
+  -- hs-source-dirs:
+  default-language:    Haskell2010
